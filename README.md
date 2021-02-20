@@ -29,10 +29,10 @@ For Windows, WSL should make things work.
 ### Step 2: launch the dev entrypoint
 
 ```bash
-./manage/dev/watch
+./manage/dev/run
 ```
 
-Or run test some Java code via Groovy's test infrastructure:
+Or test some Java code via Groovy's test infrastructure:
 
 ```bash
 ./manage/dev/test-run ./test/tools/WorkersTest.groovy
