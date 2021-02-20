@@ -19,8 +19,8 @@ class Main {
     static void main(String[] args) {
         LocalDateTime start = LocalDateTime.now()
         log("Starting main...")
-        GroovyWorker.doStuff("Configure environment")
-        JavaWorker.doStuff("Access database")
+        println GroovyWorker.doStuff("Configure environment")
+        println JavaWorker.doStuff("Access database")
         LocalDateTime curr = LocalDateTime.now()
         Duration duration = Duration.between(start, curr)
         long durationMillis = duration.toMillis()

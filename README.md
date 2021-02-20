@@ -1,3 +1,13 @@
+## Preamble
+
+Run and test java code in **milliseconds**.
+
+This works by leveraging a very cool project: [GroovyServ](https://kobo.github.io/groovyserv/quickstart.html).
+
+And using `Groovy` as an entrypoint for `Java` focused development.
+
+---
+
 ## Requirements
 
 Linux only for now.
@@ -20,4 +30,10 @@ For Windows, WSL should make things work.
 
 ```bash
 ./manage/dev/watch
+```
+
+Or run test some Java code via Groovy's test infrastructure:
+
+```bash
+./manage/dev/test-run ./test/tools/WorkersTest.groovy
 ```
