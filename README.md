@@ -1,3 +1,7 @@
+Update, go here: https://github.com/benjamin-thomas/java-snappy-dev-env
+
+---
+
 ## Preamble
 
 Run and test java code in **milliseconds**.
